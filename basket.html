@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/basket.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Shopping Cart</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Product</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Total</th>
+                    <th>Remove</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Product 1</td>
+                    <td>$10.00</td>
+                    <td>2</td>
+                    <td>$20.00</td>
+                    <td><button>Remove</button></td>
+                </tr>
+                <tr>
+                    <td>Product 2</td>
+                    <td>$15.00</td>
+                    <td>1</td>
+                    <td>$15.00</td>
+                    <td><button>Remove</button></td>
+                </tr>
+                <!-- Add more products as needed -->
+            </tbody>
+        </table>
+        <div class="total">Total: $35.00</div>
+        <button class="checkout-btn">Checkout</button>
+    </div>
+</body>
+</html>
